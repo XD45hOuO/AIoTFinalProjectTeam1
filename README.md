@@ -28,7 +28,6 @@
 
 1. 資料層 (Data Layer)
 模擬真實 IoT 智慧電表資料流，採用公開免費的 UCI Electricity Load Diagrams (2011–2014) 資料集。
-聚焦單一用戶 (MT_001) 的 2013 年全年用電資料，以小時為單位重新取樣，共計 8,760 筆資料。
 
 2. 運算層 (Processing / AI Model)
 資料前處理：使用前向填補處理缺失值 (缺失率 < 0.3%)，並透過 MinMaxScaler 進行數值正規化。
