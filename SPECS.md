@@ -76,10 +76,10 @@
 
 | 研究 Study | 方法 Method | 需標記資料 Labeled Data | 硬體需求 Hardware | 邊緣適用性 Edge Ready |
 |---|---|---|---|---|
-| Jokar et al. (2016) | CPBETD (SVM + k-Means) | ✅ 需要 | 低 | ✅ 可 |
-| Buzau et al. (2020) | HNN-NTL (LSTM + MLP → Sigmoid) | ✅ 需要 | 高 | ❌ 否 |
-| Oprea et al. (2021) | SR-CNN + GBM | ❌ 不需要 | 高 | ❌ 否 |
-| **本專題 This Project** | **Isolation Forest** | **❌ 不需要** | **低** | **✅ 是** |
+| Jokar et al. (2016) | CPBETD (SVM + k-Means) | 需要 | 低 | 可 |
+| Buzau et al. (2020) | HNN-NTL (LSTM + MLP → Sigmoid) | 需要 | 高 | 否 |
+| Oprea et al. (2021) | SR-CNN + GBM | 不需要 | 高 | 否 |
+| **本專題 This Project** | **Isolation Forest** | **不需要** | **低** | **是** |
 
 ### 3.2 選用 Isolation Forest 的核心理由 Rationale
 
@@ -131,7 +131,6 @@
 | 資料來源 | UC Irvine Machine Learning Repository |
 | 地區 | 葡萄牙（Portugal） |
 | 消費者數量 | 370 戶 (consumers / MT_001 ~ MT_370) |
-| 時間範圍（案例研究） | 2013 年全年（MT_001） |
 | 資料頻率 | 15 分鐘一筆（每日 96 筆） |
 | 資料格式 | 時序電力消耗（kWh） |
 
